@@ -30,8 +30,8 @@ Do not use it to find one specific email, write a new email or track Canvas assi
    Skip emails whose deadline has passed, unless it passed in the last 72 hours and nothing shows it was handled. Skip anything a later email shows is done.
    Mark each item Read or Unread. Never change an email's read status.
 4. Order the list: anything due within 48 hours first, earliest first. Everything else follows the student's ranking, and within one category the earliest deadline goes first and emails with no deadline go last.
-5. Text the top three, one short line each: who it is from, what is needed, and by when. If more were kept, say how many more and offer them.
-   If an email fits no saved category, ask where the new category belongs, after the top three in the same text. Save the answer with **Memory** and do not ask again. If there is no answer, put it at the bottom and ask at the next check.
+5. Go through every category in the student's ranking and text every email that needs action, in the order from step 4. Do not cap the list. Use the layout in Output.
+   If an email fits no saved category, ask where the new category belongs, after the list in the same text. Save the answer with **Memory** and do not ask again. If there is no answer, put it at the bottom and ask at the next check.
 6. During a nightly check only, if a kept email is due in under 24 hours, call the student with Cubbie's phone call capability, once for all urgent items. Keep it short and spoken: who it is from, what is needed, and when it is due.
    This applies to every ranked category, including new ones, and never to categories the student left out. If the deadline is unclear, only text.
 7. Offer to draft a reply for any item that needs one, with Cubbie's **Gmail** capability. Create a draft only and never send. Show it and let the student confirm or change it.
@@ -41,8 +41,20 @@ Do not use it to find one specific email, write a new email or track Canvas assi
 
 ## Output
 
-Reply in a few short lines of plain text, no Markdown, with the most urgent item first. For example: "2 emails need you: 1. Prof. Lee (Unread) asks which section you are in, reply by 9 am. 2. Immigration office (Read) needs your form, due Fri. Want me to draft both replies?"
-Keep the full list for when the student asks.
+Reply in plain text with no Markdown, in this layout:
+Open with one line: the student's name, how many follow-ups there are, and the period scanned (the past 24 hours, or 72 hours the first time).
+Then number each item. Give the category, the sender and the sender's email address. On the next line give Read or Unread and what the student needs to do. On the last line give "When:" with the deadline, or "no deadline stated". Leave a blank line between items.
+Close with one line offering to draft a reply for the items that need one, and say that nothing was sent and no read or unread labels were changed.
+Example: "Veda, here are 2 follow-ups from the past 24 hours.
+1. Professors, Prof. Lee, lee@asu.edu.
+Unread. Reply with which section you are in.
+When: today, 9 am.
+
+2. Immigration, ISSC, issc@asu.edu.
+Read. Upload your signed form.
+When: Friday, no time stated.
+
+Want me to draft a reply to Prof. Lee? Nothing has been sent and I have not changed any read or unread labels."
 
 ## When something fails
 
